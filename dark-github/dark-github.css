@@ -169,9 +169,6 @@
     .IssueLabel,
     .label-name {
         color: #fff !important;
-        letter-spacing: .5px;
-        font-size: 13px;
-        padding: 3px !important;
         text-shadow: -.25px -.5px .25px rgba(0, 0, 0, 0.95) !important;
         filter: hue-rotate(180deg)
     }
@@ -887,14 +884,6 @@
     }
     .user-profile-repo-filter {
         width: 100% !important
-    }
-    #conversation_tab_counter,
-    #commits_tab_counter,
-    #files_tab_counter,
-    .reponav-item .counter,
-    .reponav-item .Counter {
-        border-radius: 2px !important;
-        padding: 2px 5px 3px !important
     }
     .topic-tag {
         padding: .2em .9em !important
@@ -7932,8 +7921,6 @@ ul.legend li:nth-child(5) {
     .IssueLabel,
     .label-name {
         color: #222 !important;
-        font-size: 13px;
-        padding: 3px 5px !important;
         text-shadow: none !important;
         filter: hue-rotate(100deg)
     }
@@ -7947,6 +7934,12 @@ ul.legend li:nth-child(5) {
     }
     .user-status-message-wrapper {
         color: #a0b4c8 !important;
+    }
+    .user-status-message-wrapper > div {
+        color: rgba(240, 240, 80, 0.7) !important;
+    }
+    .user-status-message-wrapper:hover > div {
+        color: rgba(195, 220, 235, 1) !important
     }
     .js-toggle-user-status-edit:hover {
         box-shadow: none !important;
@@ -7966,5 +7959,31 @@ ul.legend li:nth-child(5) {
     }
     button.text-green {
         color: #6cc644 !important;
+    }
+    .select-menu-tab-nav[aria-selected="true"] {
+        background-color: rgba(255, 255, 255, 0.1) !important;
+        border: 1px solid rgba(255, 255, 255, 0.3) !important;
+        border-bottom: none !important;
+    }
+    .select-menu-item:hover {
+        color: #fff !important;
+        background: #a0b4c8 !important;
+    }
+    .gh-header-shadow,
+    .pr-toolbar {
+        background-color: #25272a !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    }
+    .closed-banner {
+        display: none;
+    }
+    .css-truncate-target:hover {
+        color: #fff !important;
+    }
+    #dependents > .blankslate {
+        padding: 80px 40px !important;
+    }
+    .js-repo-features-form > .Box li:nth-child(3) .bg-blue-light {
+        background-color: rgba(255, 255, 255, 0.1) !important;
     }
 }
