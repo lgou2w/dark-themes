@@ -1,0 +1,69 @@
+/**
+ * Dark Google Translate (CN)
+ *
+ * Author:  lgou2w <lgou2w@hotmail.com>
+ * License: CC0 - Public Domain
+ */
+
+@-moz-document url-prefix("https://translate.google.cn"), domain("translate.google.cn") {
+    header.gb_Wa {
+        border-bottom: 1px solid rgba(37, 39, 42, 0.5) !important;
+    }
+    header.gb_Wa > .gb_Ce {
+        background: #24292e !important;
+    }
+    .frame::before {
+        background: #25272a !important;
+    }
+    body {
+        background: #111111 !important;
+    }
+    svg,
+    .gb_Me,
+    .jfk-button,
+    .tlid-translation,
+    .tlid-result-transliteration-container > div,
+    .ft-icon-txt {
+        color: #fff !important;
+    }
+    .jfk-button > .jfk-button-img,
+    .ita-kd-img, .gt-clear > .jfk-button-img {
+        -webkit-filter: invert(100%) !important;
+        filter: invert(100%) !important;
+        opacity: 0.55 !important;
+    }
+    .sugg-fade {
+        display: none !important;
+    }
+    .tlid-language-bar,
+    .swap-wrap,
+    .swap-wrap > .swap,
+    .sl-more:focus,
+    .tl-more:focus,
+    .sl-sugg-button-container > div,
+    .sl-sugg-button-container > .jfk-button:focus {
+        color: #fff !important;
+        background-color: transparent !important;
+    }
+    .source-wrap,
+    .tlid-source-text-input,
+    .tlid-spelling-correction,
+    .tlid-result,
+    .tlid-results-container,
+    .result,
+    .gt-edit,
+    .contribute-target,
+    .st-stp1-epu-text {
+        color: #fff !important;
+        background-color: #25272a !important;
+    }
+    .ita-kd-icon-button {
+        background: transparent !important;
+    }
+    .ft-icon-oval {
+        background-color: #25272a !important;
+    }
+    .trans-target-highlight {
+        background: rgba(255, 255, 255, 0.18) !important;
+    }
+}
