@@ -1,21 +1,21 @@
-- **English**
-- [简体中文](README-CN.md)
+- [English](README.md)
+- **简体中文**
 
 # dark-themes
-A dark theme style collection based on stylus plugin
+基于 Stylus 插件的黑暗主题样式集合
 
-# Preview
+# 预览
 
-* Dark GitHub
+* 暗黑 GitHub
 
 ![dark-github-user](./.images/dark-github-user.jpg)
 
 ![dark-github-organization](./.images/dark-github-organization.jpg)
 
-* Dark Google Translate (CN)
+* 暗黑谷歌翻译 (CN)
 
 ![dark-google-translate](./.images/dark-google-translate.jpg)
 
-# How to use ?
+# 如何使用 ?
 
 TODO
