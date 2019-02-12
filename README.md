@@ -6,6 +6,9 @@ A dark theme style collection based on stylus plugin
 
 # Preview
 
+<details>
+<summary>Click preview</summary>
+
 * Dark GitHub
 
 ![dark-github-user](./.images/dark-github-user.jpg)
@@ -16,6 +19,19 @@ A dark theme style collection based on stylus plugin
 
 ![dark-google-translate](./.images/dark-google-translate.jpg)
 
+</details>
+
 # How to use ?
 
-TODO
+1. Install the `stylus` extension for your browser: [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
+2. Open the extension's manage panel:
+![stylus-manage](./.images/stylus-manage.jpg)
+3. Write a new style:
+![stylus-write](./.images/stylus-write.jpg)
+4. Enter the style name and click the Import button:
+![stylus-add](./.images/stylus-add.jpg)
+5. Copy the contents of the project's CSS style file and paste it into the input box. Click the override button:
+![stylus-import](./.images/stylus-import.jpg)
+6. Save this style:
+![stylus-save](./.images/stylus-save.jpg)
+7. Enjoy it.
