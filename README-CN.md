@@ -24,14 +24,19 @@
 # 如何使用 ?
 
 1. 给您的浏览器安装 `stylus` 扩展插件: [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
-2. 打开扩展插件的管理面板:
+2. 打开扩展插件的管理面板:<br />
 ![stylus-manage](./.images/stylus-manage.jpg)
-3. 写一个新的样式:
+
+3. 写一个新的样式:<br />
 ![stylus-write](./.images/stylus-write.jpg)
-4. 输入样式名称并点击导入按钮:
+
+4. 输入样式名称并点击导入按钮:<br />
 ![stylus-add](./.images/stylus-add.jpg)
-5. 复制项目的 CSS 样式文件的内容并粘贴到输入框内点击重写按钮:
+
+5. 复制项目的 CSS 样式文件的内容并粘贴到输入框内点击重写按钮:<br />
 ![stylus-import](./.images/stylus-import.jpg)
-6. 保存这个样式:
+
+6. 保存这个样式:<br />
 ![stylus-save](./.images/stylus-save.jpg)
+
 7. 享受吧.
