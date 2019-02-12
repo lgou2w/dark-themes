@@ -12,11 +12,9 @@
     header.gb_Wa > .gb_Ce {
         background: #24292e !important;
     }
+    body,
     .frame::before {
         background: #25272a !important;
-    }
-    body {
-        background: #111111 !important;
     }
     svg,
     .gb_Me,
@@ -81,12 +79,11 @@
     .gt-lc.gt-lc-mobile .gt-cc-r-i,
     .detect_language_row_icon,
     .language_list_item_icon,
-    .language_list_item {
+    .language_list_item,
+    .gt-baf-word-selected{
         background-color: transparent !important;
     }
-    .ft-icon-oval,
-    .ita-kd-icon-button,
-    .ita-kd-inputtools-div  {
+    .ft-icon-oval {
         background-color: #25272a !important;
     }
     .trans-target-highlight {
@@ -118,5 +115,21 @@
     .gt-lc-mobile .gt-baf-word-clickable:hover,
     .language_list_item_wrapper:hover {
         background-color: rgba(255, 255, 255, 0.22) !important;
+    }
+    .ita-kd-icon-button {
+        background: #25272a !important;
+        border: 1px solid rgba(0, 0, 0, 0.22) !important;
+    }
+    .gt-cc-r,
+    .gt-cc-l {
+        border-radius: 8px !important;
+        border: 1px solid rgba(0, 0, 0, 0.22) !important;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37) !important;
+    }
+    .gt-cc-l {
+        width: 49% !important;
+    }
+    .gt-lc.gt-lc-mobile {
+        padding-top: 4px !important;
     }
 }
